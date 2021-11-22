@@ -8,6 +8,10 @@ public class Main {
          *  i wyświetlał liczby które są podzielne przez ostatnią cyfrę waszego indeksu
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
+   for (int a = 100; a>0; a--){
+       System.out.println( a );
+   }
+
 
         /* zad.2 Napisz program który będzie uzupełniał tablicę 5-cio elementową int[] liczbami
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
