@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,11 +26,46 @@ public class Main {
         b) jak wyżej tylko dla tablicy typu double[],
         c) jak wyżej dla tablicy String[], przeliterować i wyświetlić od ostatniego elementu
         */
+        System.out.println("Zadanie 2a");
+      int[]tab = {1,2,3,4,5};
+
+      int a = 0;
+      while (a<tab.length){
+          System.out.println(tab[a]);
+          a++;
+      }
+        System.out.println("Zadanie 2b");
+
+        double[]tab1 = {1.1,2.2,3.3,4.4,5.5};
+
+        int b = 0;
+        while (b<tab.length){
+            System.out.println(tab1[b]);
+            b++;}
+
+        System.out.println("Zadanie 2c");
+
+        String[]tab2 = {"Ania","Hania","Piotr","Lukasz","Wojtas"};
+
+        int c = 0;
+        while (c<tab.length){
+            System.out.println(tab2[c]);
+            c++;}
+
+
+
+
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
         */
+        System.out.println("Zadanie 3a");
+
+        System.out.println(" gdy wartość true jest w warunku funkcji wtedy kod się nie zatrzymuje sam z siebie (nie kończy się)");
+
+        System.out.println("Zadanie 3b");
+
 
 
     }
