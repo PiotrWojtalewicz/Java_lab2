@@ -8,9 +8,12 @@ public class Main {
          *  i wyświetlał liczby które są podzielne przez ostatnią cyfrę waszego indeksu
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
-   for (int a = 100; a>0; a--){
-       System.out.println( a );
-   }
+
+      int zmienna1 = 100;
+
+   for (char znak : zmienna1.toCharArray())
+
+
 
 
         /* zad.2 Napisz program który będzie uzupełniał tablicę 5-cio elementową int[] liczbami
