@@ -13,7 +13,7 @@ public class Main {
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
           przeiterować tablicę po elementach i wyswietlić, użyć pętli while
-        b) jak wyżej tylko dla tablicy typu double[],
+        b) jak wyżej tylko dla tablicy typu double[],sss
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
 
