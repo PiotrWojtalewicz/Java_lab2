@@ -9,9 +9,13 @@ public class Main {
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
 
-      int zmienna1 = 100;
 
-   for (char znak : zmienna1.toCharArray())
+  int a =100;
+  while ((--a) > 0) {
+      System.out.println(a);
+            if (a % 7 == 0) {
+                System.out.println( a +"- podzielna przez 7");
+        }}
 
 
 
