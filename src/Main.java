@@ -19,7 +19,7 @@ public class Main {
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
            b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
          */
-        System.out.println("Zadanie 3a");
+        System.out.println("Zadanie 1a");
         Scanner scan = new Scanner((System.in));
         System.out.println("Podaj liczbę : ");
         int a = scan.nextInt();
@@ -32,7 +32,7 @@ public class Main {
                 break;
         }
 
-        System.out.println("Zadanie 3b");
+        System.out.println("Zadanie 2b");
         Scanner scaner = new Scanner((System.in));
         System.out.println("Podaj liczbę : ");
         int b = scaner.nextInt();
@@ -45,7 +45,7 @@ public class Main {
                 break;
         }
 
-
+        System.out.println("Zadanie 2a");
 
     }
 }
