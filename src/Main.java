@@ -19,6 +19,32 @@ public class Main {
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
            b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
          */
+        System.out.println("Zadanie 3a");
+        Scanner scan = new Scanner((System.in));
+        System.out.println("Podaj liczbę : ");
+        int a = scan.nextInt();
+        switch (a % 2 ) {
+            case 0:
+                System.out.println("Liczba parzysta");
+                break;
+            default:
+                System.out.println("Liczba nieparzysta");
+                break;
+        }
+
+        System.out.println("Zadanie 3b");
+        Scanner scaner = new Scanner((System.in));
+        System.out.println("Podaj liczbę : ");
+        int b = scaner.nextInt();
+        switch (b % 7 ) {
+            case 0:
+                System.out.println("Liczba jest podzielna przez 7");
+                break;
+            default:
+                System.out.println("Liczba nie jest podzielna przez 7");
+                break;
+        }
+
 
 
     }
