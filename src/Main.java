@@ -73,31 +73,8 @@ public class Main {
 
 
         System.out.println("Zadanie 2b");
-        String text1 = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
-        int[] tablica1 = {0, 0, 0, 0, 0, 0};
-        for (char zmiennaChar : text.toCharArray()) {
-            switch (zmiennaChar) {
-                case 'o':
-                    ++tablica[0];
-                    break;
-                case 'p':
-                    ++tablica[1];
-                    break;
-                case 'x':
-                    ++tablica[2];
-                    break;
-                case 'z':
-                    ++tablica[3];
-                    break;
-                case 'q':
-                    ++tablica[4];
-                    break;
-                default:
-                    ++tablica[5];
-            }
-        }
-        System.out.printf("\nLiczba występuje\no: %d - razy\np: %d - razy\nx: %d - razy\nz: %d - razy\nq: %d - razy",
-                tablica[0], tablica[1], tablica[2], tablica[3],tablica[4]);
+        int others =0;
+
 
     }
 }
