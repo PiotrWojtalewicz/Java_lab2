@@ -1,19 +1,43 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
+public static void metoda1() {
+    int[] tab = new int[20];
+    for (int i = 40; i <= 20; i--) {
+        System.out.println(i - 1 );
+    }
+    for (int x : tab) {
+        System.out.println(x);
+
+    }
+}
+public static int[] metoda2(int zmienna){
+    int []tab1 = new int [zmienna];
+    for (int i =40; i<=20; i -- ){
+        tab1[i] = i;
+    }
+    for (int y: tab1
+         ) {
+        System.out.println(y);
+    }
+    return tab1;
+}
 
     public static void main(String[] args) {
-        /* ćwiczenie 5 Metody */
 
+        /* ćwiczenie 5 Metody */
         /* zad.1
         a) stworzyć tablicę typu int[20],
         b) napisać metodę która będzie uzupełniała tablicę wartościami od 40 do 20,
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
+        System.out.println("Zadanie1");
 
-        /* zad.2
+metoda2(40);
+
+
+
+
+    /* zad.2
         a) stworzyc tablicę typu String[6],
         b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury
             (użyć do tego pętli i klasy Scanner),
@@ -40,4 +64,8 @@ public class Main {
 
     }
 
-}
+
+    }
+
+
+
