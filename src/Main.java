@@ -2,7 +2,7 @@ public class Main {
 public static void metoda1() {
     int[] tab = new int[20];
     for (int i = 40; i <= 20; i--) {
-        System.out.println(i - 1 );
+        System.out.println(i);
     }
     for (int x : tab) {
         System.out.println(x);
@@ -11,7 +11,7 @@ public static void metoda1() {
 }
 public static int[] metoda2(int zmienna){
     int []tab1 = new int [zmienna];
-    for (int i =40; i<=20; i -- ){
+    for (int i =zmienna; i<=20; i -- ){
         tab1[i] = i;
     }
     for (int y: tab1
