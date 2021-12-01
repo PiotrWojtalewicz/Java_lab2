@@ -1,24 +1,19 @@
+
+
 public class Main {
-public static void metoda1() {
-    int[] tab = new int[20];
-    for (int i = 40; i <= 20; i--) {
-        System.out.println(i);
+
+public static int[] metoda1(int zmienna){
+    var tab = new int[zmienna+1] ;
+    var x = 0;
+    for (int i =40; i>=zmienna; i -- ){
+        tab[x] = i;
+        x++;
     }
-    for (int x : tab) {
-        System.out.println(x);
+    for (int i = 0; i< tab.length; i++) {
+        System.out.println(tab[i]+ ",");
 
     }
-}
-public static int[] metoda2(int zmienna){
-    int []tab1 = new int [zmienna];
-    for (int i =zmienna; i<=20; i -- ){
-        tab1[i] = i;
-    }
-    for (int y: tab1
-         ) {
-        System.out.println(y);
-    }
-    return tab1;
+    return tab;
 }
 
     public static void main(String[] args) {
@@ -32,7 +27,7 @@ public static int[] metoda2(int zmienna){
         */
         System.out.println("Zadanie1");
 
-metoda2(40);
+       var tab = metoda1(20);
 
 
 
