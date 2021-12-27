@@ -19,27 +19,36 @@ public static int[] zadanie1(int zmienna){
     /* Ad. zadania 2 */
 public static String[] zadanie2(){
     Scanner scan = new Scanner(System.in);
-    String[] tab1 = new String[6];
+    String[] tab1 = new String[5];
 
-for (int j = 0; j<6; j++ )
+for (int j = 0; j< tab1.length; j++ )
 {
-    String y = scan.nextLine();
+    tab1[j] = scan.nextLine();
 }
-    for (String y: tab1
-         ) {
-        System.out.println(y + ",");
-    }
+   for (int j = tab1.length; j>=0;j-- ){
+       System.out.println(tab1[j]);
+   }
     return tab1;
 }
 
 
     /* Ad. zadania 3 */
+    public static void zadanie3(String name){
+        System.out.println("\nName: " + name  );
+    }
+    public static void zadanie3(String name, String surname){
+        System.out.println("\nName: " + name + "\nSurname : " + surname  );}
+
 public static void zadanie3(String name, String surname, int age){
     System.out.println("\nName: " + name + "\nSurname : " + surname + " \nage: " + age );
 }
 
     /* Ad. zadania 4 */
-
+public static int zadanie4(int A, int B){
+    int wynik = A +B;
+    System.out.println(wynik);
+    return wynik;
+}
     public static int zadanie4(int A, int B,int C ){
         int wynik= A + B + C ;
         System.out.println(wynik);
@@ -68,6 +77,7 @@ public static void zadanie3(String name, String surname, int age){
         */
         System.out.println("Zadanie 2");
         System.out.println("Podaj 6 wyrazów do tablicy");
+        zadanie2();
 
 
 
@@ -82,7 +92,9 @@ public static void zadanie3(String name, String surname, int age){
             nazwisko i wiek (int), a następnie wszystko wyświetli,
         */
         System.out.println("Zadanie 3");
-        zadanie3("Piotr "," Wojtalewicz", 22);
+        zadanie3("Piotr ");
+        zadanie3("Piotr", "Wojtalewicz");
+        zadanie3("Piotr","Wojtalewicz", 22);
 
         /* zad.4
         a) napisać metodę która przyjmuje 2 parametry typu int i zwraca ich sumę, którą przypiszemy do zmiennej,
