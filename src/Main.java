@@ -40,7 +40,11 @@ public static void zadanie3(String name, String surname, int age){
 
     /* Ad. zadania 4 */
 
-    public static void zadanie4
+    public static int zadanie4(int A, int B,int C ){
+        int wynik= A + B + C ;
+        System.out.println(wynik);
+        return wynik;
+    }
 
 
 
@@ -87,6 +91,13 @@ public static void zadanie3(String name, String surname, int age){
             którą przypiszemy do zmiennej, coś takiego:     zmiennaB = metoda(7, 8, 9); <-- wywołanie metody
         c) wyświetlić sumę wywołań obu metod ---> print("wynik: " + (metoda(8, 9) + metoda(2, 3, 4));
         */
+
+        System.out.println("Zadanie 4");
+       int ZmiennaA = zadanie4(1,2);
+       int ZmiennaB = zadanie4(7,8,9);
+       int wynik = ZmiennaA+ZmiennaB;
+        System.out.println(wynik);
+
 
 
     }
