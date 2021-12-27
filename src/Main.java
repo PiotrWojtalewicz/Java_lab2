@@ -1,8 +1,8 @@
-
+import java.util.Scanner;
 
 public class Main {
-
-public static int[] metoda1(int zmienna){
+    /* Ad. zadania 1 */
+public static int[] zadanie1(int zmienna){
     var tab = new int[zmienna+1] ;
     var x = 0;
     for (int i =40; i>=zmienna; i -- ){
@@ -16,6 +16,27 @@ public static int[] metoda1(int zmienna){
     return tab;
 }
 
+    /* Ad. zadania 2 */
+public static String[] zadanie2(){
+    Scanner scan = new Scanner(System.in);
+    String[] tab1 = new String[6];
+
+for (int j = 0; j<6; j++ )
+{
+    String y = scan.nextLine();
+}
+    for (String y: tab1
+         ) {
+        System.out.println(y + ",");
+    }
+    return tab1;
+}
+
+public static String zadanie3a(String imię){
+
+    return imię;
+}
+
     public static void main(String[] args) {
 
         /* ćwiczenie 5 Metody */
@@ -25,19 +46,21 @@ public static int[] metoda1(int zmienna){
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
-        System.out.println("Zadanie1");
+        System.out.println("Zadanie 1");
 
-       var tab = metoda1(20);
-
-
-
-
+        var tab = zadanie1(20);
     /* zad.2
         a) stworzyc tablicę typu String[6],
         b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury
             (użyć do tego pętli i klasy Scanner),
         c) napisać metodę która wyświetli elementy tablicy od ostatniego elementu do elementu o indeksie 0,
         */
+        System.out.println("Zadanie 2");
+        System.out.println("Podaj 6 wyrazów do tablicy");
+
+
+
+
 
         /* zad.3
         a) napisać metodę która przyjmuje 1 parametr typu String, metoda nic nie zwraca, tylko
@@ -47,6 +70,8 @@ public static int[] metoda1(int zmienna){
         c) napisać metodę o tej samej nazwie jak w punkcie a) i b) która przyjmuje wasze imie,
             nazwisko i wiek (int), a następnie wszystko wyświetli,
         */
+        System.out.println("Zadanie 3a");
+        System.out.println(zadanie3a("Piotr"));
 
         /* zad.4
         a) napisać metodę która przyjmuje 2 parametry typu int i zwraca ich sumę, którą przypiszemy do zmiennej,
