@@ -32,10 +32,17 @@ for (int j = 0; j<6; j++ )
     return tab1;
 }
 
-public static String zadanie3a(String imię){
 
-    return imię;
+    /* Ad. zadania 3 */
+public static void zadanie3(String name, String surname, int age){
+    System.out.println("\nName: " + name + "\nSurname : " + surname + " \nage: " + age );
 }
+
+    /* Ad. zadania 4 */
+
+    public static void zadanie4
+
+
 
     public static void main(String[] args) {
 
@@ -70,8 +77,8 @@ public static String zadanie3a(String imię){
         c) napisać metodę o tej samej nazwie jak w punkcie a) i b) która przyjmuje wasze imie,
             nazwisko i wiek (int), a następnie wszystko wyświetli,
         */
-        System.out.println("Zadanie 3a");
-        System.out.println(zadanie3a("Piotr"));
+        System.out.println("Zadanie 3");
+        zadanie3("Piotr "," Wojtalewicz", 22);
 
         /* zad.4
         a) napisać metodę która przyjmuje 2 parametry typu int i zwraca ich sumę, którą przypiszemy do zmiennej,
