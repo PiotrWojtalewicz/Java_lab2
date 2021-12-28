@@ -54,12 +54,16 @@ System.out.println(lista1);
              ) {
             System.out.println(x + ",");
         }
+         /*for (int i = 0; i==5;i++ ){
+            lista1.add(scan.nextLine()) ;
+*/
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
         System.out.println("\n Zadanie 2");
 Scanner scan1 = new Scanner(System.in);
+        System.out.println("\n Proszę podać 10 liczb ( niech się powtarzaja): ");
 Set<Integer> liczba = new TreeSet<>();
         liczba.add(scan.nextInt());
         liczba.add(scan.nextInt());
@@ -72,10 +76,11 @@ Set<Integer> liczba = new TreeSet<>();
         liczba.add(scan.nextInt());
         liczba.add(scan.nextInt());
 
+List<Integer> sortedList = new ArrayList<>(liczba);
+Collections.sort(sortedList);
+        System.out.println(sortedList);
+        System.out.println(liczba);
     }
 
-}
-for (int i = 0; i==5;i++ ){
-        lista1.add(scan.nextLine()) ;
+    }
 
-        }
