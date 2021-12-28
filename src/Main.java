@@ -60,7 +60,22 @@ System.out.println(lista1);
          */
         System.out.println("\n Zadanie 2");
 Scanner scan1 = new Scanner(System.in);
-Set<Integer>
+Set<Integer> liczba = new TreeSet<>();
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+        liczba.add(scan.nextInt());
+
     }
 
 }
+for (int i = 0; i==5;i++ ){
+        lista1.add(scan.nextLine()) ;
+
+        }
