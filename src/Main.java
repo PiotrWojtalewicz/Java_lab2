@@ -59,7 +59,8 @@ System.out.println(lista1);
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
         System.out.println("\n Zadanie 2");
-
+Scanner scan1 = new Scanner(System.in);
+Set<Integer>
     }
 
 }
