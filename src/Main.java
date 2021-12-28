@@ -54,9 +54,15 @@ System.out.println(lista1);
              ) {
             System.out.println(x + ",");
         }
-         /*for (int i = 0; i==5;i++ ){
-            lista1.add(scan.nextLine()) ;
+
+        /* to samo zadanie za pomocą pętli for
+        Scanner scan2 = new Scanner(System.in);
+        List<String> lista2 = new ArrayList<>();
+          for (int i = 0; i==5;i++ ) {
+              lista2.add(scan2.nextLine());
+          }
 */
+
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
@@ -80,6 +86,9 @@ List<Integer> sortedList = new ArrayList<>(liczba);
 Collections.sort(sortedList);
         System.out.println(sortedList);
         System.out.println(liczba);
+        for (Integer y: liczba) {
+            System.out.println(y + ",");
+        }
     }
 
     }
