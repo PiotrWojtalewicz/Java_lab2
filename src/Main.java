@@ -1,5 +1,6 @@
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.sql.SQLOutput;
 import java.text.CollationElementIterator;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -25,12 +26,11 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj 5 nazw zwierząt: ");
-List<String> lista1 = new ArrayList<>();
-lista1.add(scan.nextLine());
-lista1.add(scan.nextLine());
-lista1.add(scan.nextLine());
-lista1.add(scan.nextLine());
-lista1.add(scan.nextLine());
+
+        List<String> lista1 = new ArrayList<>();
+        for (int i = 0; i<5;i++ ) {
+            lista1.add(scan.nextLine());
+        }
 System.out.println(lista1);
 
         System.out.println("\n Zadanie 1b");
@@ -55,13 +55,8 @@ System.out.println(lista1);
             System.out.println(x + ",");
         }
 
-        /* to samo zadanie za pomocą pętli for
-        Scanner scan2 = new Scanner(System.in);
-        List<String> lista2 = new ArrayList<>();
-          for (int i = 0; i==5;i++ ) {
-              lista2.add(scan2.nextLine());
-          }
-*/
+
+
 
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
@@ -71,16 +66,8 @@ System.out.println(lista1);
 Scanner scan1 = new Scanner(System.in);
         System.out.println("\n Proszę podać 10 liczb ( niech się powtarzaja): ");
 Set<Integer> liczba = new TreeSet<>();
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
-        liczba.add(scan.nextInt());
+        for (int j= 0; j<10 ; j++){
+            liczba.add(scan1.nextInt());}
 
 List<Integer> sortedList = new ArrayList<>(liczba);
 Collections.sort(sortedList);
@@ -89,6 +76,7 @@ Collections.sort(sortedList);
         for (Integer y: liczba) {
             System.out.println(y + ",");
         }
+
     }
 
     }
