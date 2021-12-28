@@ -1,5 +1,6 @@
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.text.CollationElementIterator;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.*;
@@ -32,16 +33,32 @@ lista1.add(scan.nextLine());
 lista1.add(scan.nextLine());
 System.out.println(lista1);
 
-        for (String:
-             ) {
-            
+        System.out.println("\n Zadanie 1b");
+        for (String x : lista1) {
+            System.out.println(x + ",");
         }
 
+        System.out.println("\n Zadanie 1c");
+        lista1.remove(4);
+        lista1.remove(3);
+        System.out.println(lista1);
+        System.out.println("Proszę podać 3 inne zwięrzęta, które nie znajdywały się wcześniej w liście:");
+        lista1.add(scan.nextLine());
+        lista1.add(scan.nextLine());
+        lista1.add(scan.nextLine());
+        System.out.println(lista1);
 
+        System.out.println("\n Zadanie1d");
+        Collections.sort(lista1, Collections.reverseOrder());
+        for (String x  :lista1
+             ) {
+            System.out.println(x + ",");
+        }
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
+        System.out.println("\n Zadanie 2");
 
     }
 
