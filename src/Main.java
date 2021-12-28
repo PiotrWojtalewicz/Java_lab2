@@ -19,13 +19,13 @@ public static int[] zadanie1(int zmienna){
     /* Ad. zadania 2 */
 public static String[] zadanie2(){
     Scanner scan = new Scanner(System.in);
-    String[] tab1 = new String[5];
+    String[] tab1 = new String[6];
 
 for (int j = 0; j< tab1.length; j++ )
 {
     tab1[j] = scan.nextLine();
 }
-   for (int j = tab1.length; j>=0;j-- ){
+   for (int j = tab1.length -1; j>=0;j-- ){
        System.out.println(tab1[j]);
    }
     return tab1;
@@ -75,7 +75,7 @@ public static int zadanie4(int A, int B){
             (użyć do tego pętli i klasy Scanner),
         c) napisać metodę która wyświetli elementy tablicy od ostatniego elementu do elementu o indeksie 0,
         */
-        System.out.println("Zadanie 2");
+        System.out.println("\nZadanie 2");
         System.out.println("Podaj 6 wyrazów do tablicy");
         zadanie2();
 
@@ -91,7 +91,7 @@ public static int zadanie4(int A, int B){
         c) napisać metodę o tej samej nazwie jak w punkcie a) i b) która przyjmuje wasze imie,
             nazwisko i wiek (int), a następnie wszystko wyświetli,
         */
-        System.out.println("Zadanie 3");
+        System.out.println("\nZadanie 3");
         zadanie3("Piotr ");
         zadanie3("Piotr", "Wojtalewicz");
         zadanie3("Piotr","Wojtalewicz", 22);
@@ -104,7 +104,7 @@ public static int zadanie4(int A, int B){
         c) wyświetlić sumę wywołań obu metod ---> print("wynik: " + (metoda(8, 9) + metoda(2, 3, 4));
         */
 
-        System.out.println("Zadanie 4");
+        System.out.println("\nZadanie 4");
        int ZmiennaA = zadanie4(1,2);
        int ZmiennaB = zadanie4(7,8,9);
        int wynik = ZmiennaA+ZmiennaB;
